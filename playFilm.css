@@ -1,0 +1,129 @@
+body,
+html {
+    background-color: #000000;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: #000000;
+    text-align: center;
+    height: min-content;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+
+.header-option {
+    background-color: #000000;
+    text-decoration: none;
+    margin-right: 2vw;
+    color:inherit;
+}
+.video-player {
+    width: 90vw;
+    height: 50vh;
+    border-radius: 8px;
+    background-color: #000000;
+    overflow: hidden;
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video-screen {
+    margin-top: 2vh;
+    width: 90vw;
+    height: 45vh;
+    background-color: #333;
+    display: block;
+    font-size: 24px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #333;
+    height: 3vh;
+}
+
+.controls button {
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+}
+
+.controls button:hover {
+    background-color: #444;
+}
+.detail-film-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.name-detail {
+    width: 50vw;
+}
+
+.director-detail {
+    text-align: center;
+    gap: 10px;
+}
+.avatar-image{
+    border-radius: 50%;
+    width: 8vw; 
+    height: 8vw;
+    object-fit: contain;
+    margin-right: 2vw;
+}
+.avatar-list{
+    display: flex;
+    padding-left: 2vw;
+    flex-wrap: wrap;
+}
+.avatar-item{
+    text-align: center;
+}
+
+.video-list{
+    display: flex;
+    padding-left: 2vw;
+    max-width: 80vw;
+    gap: 2vw;
+    overflow: hidden;
+}
+.video-item{
+    text-align: center;
+    text-wrap: pretty;
+    max-width: 17vw;
+    margin-top: 5vh;
+}
+.video-thumbnail{
+    object-fit: contain;
+    width: 17vw;
+    height: 20vh;
+    border-radius: 30px;
+}
+.video-list-control{
+    padding-left: 2vw;
+    margin-bottom: 2vw;
+}
+
+.content-page{
+    padding-left: 2vw;
+}
+.title{
+    padding-left: 2vw; 
+    margin-top: 10vw;
+}
